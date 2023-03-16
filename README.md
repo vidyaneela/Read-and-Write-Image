@@ -25,7 +25,7 @@ i) #To Read,display the image
 ```
 import cv2
 color= cv2.imread('mm.png',1)
-cv2.imshow('212221230102',color)
+cv2.imshow('212221230120',color)
 cv2.waitKey(0)
 ```
 
@@ -51,7 +51,7 @@ img= cv2.imread('mm.png',-1)
 for i in range(300):
     for j in range(img.shape[1]):
         img[i][j] = [random.randint(0,255),random.randint(0,255),random.randint(0,255)]
-cv2.imshow('212221230102 SITHI HAJARA',img)
+cv2.imshow('212221230120 VIDYANEELA',img)
 cv2.waitKey(0)
 ```
 v) #To cut and paste portion of image
@@ -60,7 +60,7 @@ import cv2
 color=cv2.imread('mm.png',-1)
 tag=color[200:300,200:300]
 color[100:200,100:200]=tag
-cv2.imshow('212221230102 SITHI HAJARA',color)
+cv2.imshow('212221230120 VIDYA NEELA',color)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
@@ -70,31 +70,28 @@ cv2.destroyAllWindows()
 
 ### i) Read and display the image
 
-<br>
+![image](https://user-images.githubusercontent.com/94169318/225517807-76244931-f928-41a6-a014-0ef99a9b41c9.png)
 
-<br>
 
 ### ii)Write the image
 
-<br>
+![image](https://user-images.githubusercontent.com/94169318/225517833-bd264910-4111-49d0-931e-80119b782fbd.png)
 
-<br>
 
 ### iii)Shape of the Image
 
-<br
+![image](https://user-images.githubusercontent.com/94169318/225517676-6313d83c-5b8c-4a39-b73b-93b6002fec74.png)
 
-<br>
 
 ### iv)Access rows and columns
-<br>
 
-<br>
+![image](https://user-images.githubusercontent.com/94169318/225517706-23d3661c-fb8b-45e2-8a19-c19f88e32a79.png)
+
 
 ### v)Cut and paste portion of image
-<br>
 
-<br>
+![image](https://user-images.githubusercontent.com/94169318/225517761-3c654d94-9cbe-41a6-8393-01e46b66b4b1.png)
+
 
 ## Result:
 Thus the images are read, displayed, and written successfully using the python program.
